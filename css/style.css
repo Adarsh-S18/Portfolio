@@ -380,7 +380,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  /* padding-bottom: 9em; */
   clear: both;
   width: 100%;
   display: block; }
@@ -394,7 +394,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      } }
 
 .author-img {
   background-size: cover;
@@ -926,7 +926,7 @@ body.offcanvas {
       color: #2c98f0; }
 
 .project {
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
@@ -971,8 +971,12 @@ body.offcanvas {
           color: #333333; }
     .project .desc h3 {
       font-family: "Quicksand", Arial, sans-serif;
-      font-size: 16px;
-      font-weight: 500;
+      font-size: 26px;
+      text-align: center;
+      align-items: center;
+      padding-top: 100px;
+      color: white;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 1px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
@@ -1089,7 +1093,7 @@ body.offcanvas {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline; }
+    display: inline; }
     .colorlib-social li a {
       font-size: 22px;
       color: #000;
@@ -1097,7 +1101,7 @@ body.offcanvas {
       display: -moz-inline-stack;
       display: inline-block;
       zoom: 1;
-      *display: inline;
+      display: inline;
       -webkit-border-radius: 7px;
       -moz-border-radius: 7px;
       -ms-border-radius: 7px;
@@ -1313,7 +1317,7 @@ body.offcanvas {
     display: -moz-inline-stack;
     display: inline-block;
     zoom: 1;
-    *display: inline;
+    display: inline;
     width: 30px;
     height: 2px;
     color: #000;
